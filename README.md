@@ -35,7 +35,7 @@ Nowadays, the importance of online sales is crystal clear for everyone. This web
 
 ---------------------------------
 
-![image] ()
+![/assets/images/my-deployed-webpage.png](/assets/images/my-deployed-webpage.png)
 
 <br>
 
@@ -188,7 +188,7 @@ h3 {
 
 ---------------------------------
 
-[user-friendly-marketing-website]()
+[https://bhmerir.github.io/user-friendly-marketing-website](https://bhmerir.github.io/user-friendly-marketing-website)
 
 <br>
 
