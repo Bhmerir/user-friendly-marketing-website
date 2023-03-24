@@ -1,3 +1,6 @@
+/*adjust the css file with regard to the changes of index.html file by changing the name of each section 
+like ".header" to "header" and deleting the name of parents that weren't necessary to mention
+and unify the sections that have the same value */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,19 +11,19 @@ body {
     background-color: #d9dcd6;
 }
 
-/**/
+/*define the value of font-family once for all elements that had the same value in order to avoid repetition*/
 header, 
 footer{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/**/
+/*define the value of font-family once for all elements that had the same value in order to avoid repetition*/
 #header,
 .inhancing-sales-tips,
 .benefits{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/**/
+/*define once the color of these 4 sections that had the same value in order to avoid repetition*/
 header,
 a,
 .inhancing-sales-tips,
@@ -29,18 +32,21 @@ a,
     color: #ffffff;
 }
 
+/*change class of .header to header*/
 header {
     padding: 20px;
     background-color: #2a607c;  
 }
 
-#header{
+/*change .header div to nav*/
+nav{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-size: 20px;
 }
 
+/*delete the .header*/
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -50,6 +56,7 @@ h1 {
     color: #d9dcd6;
 }
 
+/*delete ul and bring life-style-type inside li*/
 li {
     list-style-type: none;
     display: inline-block;
@@ -89,18 +96,20 @@ p {
     margin-left: 20px;
 }
 
-/**/
+/*unify the code of .search-engine-optimization, .online-reputation-management and .social-media-marketing to our single class of below 
+because they had the same values for their properties*/
 .inhancing-sales-tips {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     background-color: #0072bb;
 }
-
+/*the sam thing for their images*/
 .inhancing-sales-tips img {
     max-height: 200px;
 }
 
+/*unify all the h2s because they had same properties and values*/
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -115,28 +124,31 @@ h2 {
     height: 100%;
     background-color: #2589bd;
 }
-/**/
+/*unify the code of .benefit-lead, .benefit-cost and .benefit-brand to our single class of below 
+because they had the same values for their properties*/
 .benefit-topics {
     margin-bottom: 32px;
 }
-
+/*the same thing for their images*/
 .benefit-topics img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*unify all the h3s because they had same properties and values*/
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/**/
+/*change .footer div to nav*/
 footer {
     padding: 30px;
     clear: both;
     text-align: center;
 }
 
+/*change .footer h2 to h4*/
 h4 {
     font-size: 20px;
 }
